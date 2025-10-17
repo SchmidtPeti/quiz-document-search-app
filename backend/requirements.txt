@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+sentence-transformers
+python-multipart  # For file uploads
+openai>=1.0.0
+python-dotenv
+chromadb>=0.5.0

@@ -1,0 +1,58 @@
+# --- General ---
+# Environment variables - NEVER commit these as they contain secrets like API keys
+.env
+.env.*
+!.env.example
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# --- Python Backend ---
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Python cache and bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / Editor specific for Python (e.g., PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Testing and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# --- Node.js / React Frontend ---
+# Main dependency folder - this is the most important one for Node projects
+node_modules/
+
+# Build output folder
+build/
+dist/
+
+# Debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration overrides
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
