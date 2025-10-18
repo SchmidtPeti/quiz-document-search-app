@@ -201,8 +201,8 @@ function App() {
                 {response.sources.map((source, idx) => (
                   <li key={idx}>
                     <details>
-                      <summary>{`Bekezdés ${idx + 1}`}</summary>
-                      <pre className="source-pre">{source}</pre>
+                      <summary>{source.section ? `${source.section}` : `Bekezdés ${idx + 1}`}</summary>
+                      <pre className="source-pre">{source.content || source}</pre>
                     </details>
                   </li>
                 ))}

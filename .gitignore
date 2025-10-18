@@ -4,6 +4,10 @@
 .env.*
 !.env.example
 
+# sqlite database and chroma database
+chroma_db/
+sqlite_db/
+
 # OS-specific files
 .DS_Store
 Thumbs.db
